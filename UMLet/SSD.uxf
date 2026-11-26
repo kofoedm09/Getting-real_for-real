@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <help_text/>
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>374</x>
+      <y>330</y>
+      <w>187</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>ReparationsSystem:</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>462</x>
+      <y>352</y>
+      <w>33</w>
+      <h>473</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;410.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>132</x>
+      <y>209</y>
+      <w>275</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>SSD - Registrer reparation</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>44</x>
+      <y>385</y>
+      <w>440</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>RegistrerReparation(kundeNummer, kundeNavn)
+lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>380.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>55</x>
+      <y>440</y>
+      <w>440</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>RegistreringBekræftet(ID)
+lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;20.0;380.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>44</x>
+      <y>517</y>
+      <w>440</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>RegistrerReparation(cykelNummer, dato)
+lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>380.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>55</x>
+      <y>583</y>
+      <w>440</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>CykelRegistreringBekræftet
+lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;20.0;380.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>44</x>
+      <y>660</y>
+      <w>440</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>RegistrerReparation(CykelNummer, Fejl)
+lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>380.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>55</x>
+      <y>715</y>
+      <w>440</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>FejlRegistreringBekræftet
+lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;20.0;380.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>44</x>
+      <y>363</y>
+      <w>33</w>
+      <h>451</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;390.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>0</x>
+      <y>242</y>
+      <w>110</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>Medarbejder:</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1430</x>
+      <y>308</y>
+      <w>187</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>:System</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1518</x>
+      <y>330</y>
+      <w>44</w>
+      <h>715</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;20.0;630.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1188</x>
+      <y>187</y>
+      <w>275</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>SSD - Registrer reparationssag</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1100</x>
+      <y>517</y>
+      <w>440</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>OpretReparationssag (Cykel, fejl)
+lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>380.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1100</x>
+      <y>341</y>
+      <w>33</w>
+      <h>704</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;620.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>1056</x>
+      <y>220</y>
+      <w>110</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>Medarbejder:</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1100</x>
+      <y>363</y>
+      <w>440</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>OpretKunde (Navn, TlfNummer, Email)
+lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>380.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1078</x>
+      <y>440</y>
+      <w>484</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>OpretCykel (StelNummer, CykelMærke, AntalReparationer, Kunde)
+lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>400.0;20.0;30.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1111</x>
+      <y>396</y>
+      <w>440</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>Kunde
+lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;20.0;380.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1111</x>
+      <y>473</y>
+      <w>440</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>Cykel
+lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;20.0;380.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1111</x>
+      <y>561</y>
+      <w>440</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>Reparationssag
+lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;20.0;380.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>990</x>
+      <y>594</y>
+      <w>605</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>loop [Flere fejl]
+--
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1100</x>
+      <y>638</y>
+      <w>440</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>TilføjFejl (Reparationssag, fejl)
+lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>380.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+</diagram>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>910</x>
+      <y>247</y>
+      <w>195</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>Reparation
+--
+Reperations nummer
+Fejl
+Status
+Start Dato 
+Slut Dato 
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>312</x>
+      <y>247</y>
+      <w>156</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Kunde
+--
+Tlf. Nummer 
+Navn
+Email
+
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1885</x>
+      <y>26</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>SimpleClass</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>273</y>
+      <w>156</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1..*
+</panel_attributes>
+    <additional_attributes>10.0;20.0;100.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>455</x>
+      <y>273</y>
+      <w>195</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..*
+m2=1
+</panel_attributes>
+    <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>624</x>
+      <y>247</y>
+      <w>169</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Cykel  
+--
+Stel Nummer
+Antal reperationer 
+ 
+
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
