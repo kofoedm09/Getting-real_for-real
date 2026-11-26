@@ -23,5 +23,10 @@ namespace Getting_real
         {
             InitializeComponent();
         }
+
+        private void txtb_FirstName_ContextMenuClosing(object sender, ContextMenuEventArgs e)
+        {
+
+        }
     }
 }

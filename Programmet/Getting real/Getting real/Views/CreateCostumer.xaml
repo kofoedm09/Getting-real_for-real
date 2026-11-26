@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="CreateCostumer" Height="400" Width="400">
     <Grid>
-        <TextBox x:Name="txtb_FirstName" HorizontalAlignment="Left" Margin="240,107,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.55,0.592"/>
+        <TextBox x:Name="txtb_FirstName" HorizontalAlignment="Left" Margin="240,107,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.55,0.592" ContextMenuClosing="txtb_FirstName_ContextMenuClosing"/>
         <TextBox x:Name="txtb_Nr" HorizontalAlignment="Left" Margin="240,203,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="lbl_FirstName" Content="Indtast dit fornavn" HorizontalAlignment="Left" Margin="35,103,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lbl_nr" Content="Indtast dit telefonnummer" HorizontalAlignment="Left" Margin="35,199,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.063,-0.307"/>
